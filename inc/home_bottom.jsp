@@ -2,10 +2,10 @@
 <!-- footer 영역 부분 -->
 <footer id="bottom">
 	<div class="inner-wrap">
-        <div class="logo-b">백석대학교</div>
+        <div class="logo-b">백석대학교 대학원원격교육개발원</div>
 		<ul class="copy">
-			<li><address>(31065) 충청남도 천안시 동남구 문암로76(안서동 115번지) 백석대학교 TEL : 041-550-0726 FAX : 041-550-0574 bctl@bu.ac.kr</address><a href="#0" class="ui grey basic small button">개인정보처리방침</a><a href="#0" class="ui grey basic small button">이메일무단수집거부</a></li>
-			<li>COPYRIGHT ©2018 BAEKSEOK UNIVERSITY. All rights reserved.</li>
+			<li><address>06695 서울특별시 서초구 방배로9길 15</address> TEL: 02.520.6188 FAX:02.520.6189<a href="#0" class="ui grey basic small button">개인정보처리방침</a><a href="#0" class="ui grey basic small button">이메일무단수집거부</a></li>
+            <li>copyright ©2019 Baekseok University. All rights reserved.</li>
 		</ul>
 	</div>
 </footer>

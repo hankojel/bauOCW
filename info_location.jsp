@@ -40,7 +40,7 @@
                           position: naver.maps.Position.TOP_RIGHT
                       }
                   });
-                  var myaddress = '충청남도 천안시 동남구 문암로76';// 도로명 주소나 지번 주소만 가능 (건물명 불가!!!!)
+                  var myaddress = '서울특별시 서초구 방배로9길 15';// 도로명 주소나 지번 주소만 가능 (건물명 불가!!!!)
                   naver.maps.Service.geocode({address: myaddress}, function(status, response) {
                       if (status !== naver.maps.Service.Status.OK) {
                           return alert(myaddress + '의 검색 결과가 없거나 기타 네트워크 에러');
@@ -61,10 +61,99 @@
                 <div class="location">
                     <div class="ui message tc mb40">
                         <p class="author">
-                            <span><strong class="fcBlack">오시는길 :</strong> (31065) 충청남도 천안시 동남구 문암로76(안서동 115번지) 백석대학교</span>
-                            <span><strong class="fcBlack">대표전화 :</strong>  041-550-0726</span>
+                            <span><strong class="fcBlack">오시는길 :</strong> (06695) 서울특별시 서초구 방배로9길 15 백석대학교 대학원원격교육개발원</span>
+                            <span><strong class="ml10 fcBlack">TEL :</strong> 02.520.6188 <strong class="ml10 fcBlack">FAX :</strong>02.520.6189</span>
                         </p>
                     </div>
+                    <div class="table-layout-fixed mt25">
+                    <table class="tbl" summary="백석대학원 오시는 길 교통편입니다.">
+                        <caption>백석대학원 오시는 길 교통편 표</caption>
+                        <colgroup>
+                            <col width="15%">
+                            <col width="20%">
+                            <col width="65%">
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th scope="col">교통편</th>
+                                <th scope="col">노선</th>
+                                <th scope="col">설명</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th rowspan="2">지하철</th>
+                                <td data-title="노선">2호선</td>
+                                <td class="tl" data-title="설명"><strong>방배역</strong> 2번 출구 바로 앞</td>
+                            </tr>
+                            <tr>
+                                <td data-title="노선">7호선</td>
+                                <td class="tl" data-title="설명"><strong>내방역</strong> 3번 출구 10분 거리</td>
+                            </tr>
+                            <tr>
+                                <th class="tit" rowspan="3">기차</th>
+                                <td data-title="노선">서울역</td>
+                                <td class="tl" data-title="설명"> 지하철 4호선 <strong>서울역</strong> →사당역(2호선 환승) → <strong>방배역</strong></td>
+                            </tr>
+                            <tr>
+                                <td data-title="노선">용산역</td>
+                                <td class="tl" data-title="설명"> 지하철 4호선 <strong>신용산역</strong> →사당역(2호선 환승) → <strong>방배역</strong></td>
+                            </tr>
+                            <tr>
+                                <td data-title="노선">청량리역</td>
+                                <td class="tl" data-title="설명"> 지하철 중앙선 <strong>청량리역</strong> →왕십리역(2호선 환승) → <strong>방배역</strong></td>
+                            </tr>
+                            <tr>
+                                <th class="tit" rowspan="3">고속버스</th>
+                                <td data-title="노선">강남고속버스터미널</td>
+                                <td class="tl" data-title="설명">지하철 3호선 <strong>고속터미널역</strong> →교대역(2호선 환승) → <strong>방배역</strong> <br>지하철 7호선 <strong>고속터미널역</strong> → <strong>내방역</strong> 3번출구 → 도보10분</td>
+                            </tr>
+                            <tr>
+                                <td data-title="노선">서울남부터미널</td>
+                                <td class="tl" data-title="설명">간선버스 <strong>461번, 641번</strong> BC카드앞 승차 → <strong>방배역</strong> 하차</td>
+                            </tr>
+                            <tr>
+                                <td data-title="노선">동서울터미널(강변)</td>
+                                <td class="tl" data-title="설명">지하철 2호선 <strong>강변역</strong> → <strong>방배역</strong></td>
+                            </tr>
+                            <tr>
+                                <th class="tit" rowspan="7">버스</th>
+                                <td data-title="노선">148</td>
+                                <td class="tl" data-title="설명">번동 ↔ <strong>방배역</strong></td>
+                            </tr>
+                            <tr>
+                                <td data-title="노선">363</td>
+                                <td class="tl" data-title="설명">송파공영차고지 ↔ <strong>방배역</strong> ↔ 여의도</td>
+                            </tr>
+                            <tr>
+                                <td data-title="노선">406</td>
+                                <td class="tl" data-title="설명">개포동 ↔ <strong>방배역</strong> ↔ 서울역</td>
+                            </tr>
+                            <tr>
+                                <td data-title="노선">461</td>
+                                <td class="tl" data-title="설명">장지공영차고지 ↔ <strong>방배역</strong> ↔ 여의도</td>
+                            </tr>
+                            <tr>
+                                <td data-title="노선">641</td>
+                                <td class="tl" data-title="설명">문래동 ↔ <strong>방배역</strong> ↔ 양재역</td>
+                            </tr>
+                            <tr>
+                                <td data-title="노선">4319(지선버스)</td>
+                                <td class="tl" data-title="설명">잠실역 ↔ <strong>방배역</strong></td>
+                            </tr>
+                            <tr>
+                                <td data-title="노선">6016(공항버스)</td>
+                                <td class="tl" data-title="설명">남부터미널 ↔ <strong>방배역</strong> ↔ 인천공항</td>
+                            </tr>
+                            <tr>
+                                <th class="tit">자가용</th>
+                                <td data-title="노선">네비게이션</td>
+                                <td class="tl" data-title="설명">· 백석대학교 대학원<br>· (새주소)서울시 서초구 방배로 69<br>· 서울시 서초구 방배3동 981-7 <br>· 지하철 2호선 방배역</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+<!--
                     <dl class="kind2 mt20">
                         <dt>버스 이용시</dt>
                         <dd>천안버스터미널
@@ -119,6 +208,7 @@
                             <span class="bullet">백석대학교, 백석문화대학 방면 우회전</span>
                         </dd>
                     </dl>
+-->
                 </div>
             </div>
         <%@ include file="inc/home_bottom.jsp" %>

@@ -2,7 +2,7 @@
 <!-- Header 영역 부분 -->
 <header>
     <div class="inner-gnb">
-        <h1><a href="index.jsp"><img src="img/logo.png" alt="에듀트랙 6.3" /></a></h1>
+        <h1><a href="index.jsp"><img src="img/logo.png" alt="백석대학교 대학원원격교육개발원" /></a></h1>
         <div id="showleftUser"><button class="ui basic black button">내 정보</button></div>
         <div id="showRightPush"><span>메뉴보기</span></div>
         <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right" id="cbp-spmenu-s2">

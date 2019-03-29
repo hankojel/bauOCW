@@ -45,11 +45,11 @@ h4.tit_comm {margin: 40px 0 10px 0; padding-left: 18px; font-size: 21px; font-we
 .list-sm {}
 .list-sm > li {padding:6px 4px 6px 8px; text-align: left; background:url(../img/home_sub/icon_dot.gif) 0 1em no-repeat;}
 .list-sm > li strong {color: #333;}
-.tit_ethic {display:block; margin:60px 0 20px 0; font-size:24px; font-weight: 400; color: #333; text-align:center;}
-.tit_ethic .txt_growth {display:inline-block;}
-.tit_ethic .ico_growth {display:inline-block; width:22px; height:22px; vertical-align:top; margin-top:-5px; overflow:hidden; font-size:1px; line-height:0; text-indent:-9999px; background-image:url(../img/home_sub/ico_growth.png); background-repeat:no-repeat; background-position:0 0}
-.tit_ethic .ico_start {margin-right:10px; background-position:0 0;}
-.tit_ethic .ico_end {margin-left:10px; background-position:-24px 0;}
+.tit_ethic {display:block; margin:2em 20%; font-size:1.375em; font-weight: 400; color: #333; text-align:center;}
+.tit_ethic .txt_growth {position: relative; display:inline-block; word-break: keep-all;}
+.tit_ethic .ico_growth {display:inline-block; width:22px; height:22px; background:url(../img/home_sub/ico_growth.png) no-repeat;}
+.tit_ethic .ico_start {position: absolute; top: 0; left: -1em; background-position:0 0;}
+.tit_ethic .ico_end {position: absolute; top: 0; right: -1em;  background-position:-24px 0;}
 .exp {padding-left: 10px; color: #f7931e; background:url(../img/home_sub/ico_required.gif) 0 8px no-repeat;}
 .lecture-list .slider-list {display: none !important;}
 .lecture-list .slider-list.on {display: block !important;}
@@ -63,7 +63,7 @@ h4.tit_comm {margin: 40px 0 10px 0; padding-left: 18px; font-size: 21px; font-we
 
 /***************** sub-page content *****************/
 .sub-content > p {font-size: 15px;}
-.greeting {padding-left: 40%; background: url(../img/home_sub/greeting_img.jpg) no-repeat;}
+.greeting {padding-left: 40%; background: url(../img/home_sub/greeting_img.jpg) left bottom no-repeat;}
 .greeting .inner-box {padding: 2em; font-size: 1.125em; color: #fff; background-color: #0054a6;}
 .greeting .inner-box strong {font-size: 1.5em;}
 .greeting .inner-box p.sign {display: inline-block; margin-top: 40px; color: rgba(255, 255, 255, .7);}
@@ -197,12 +197,14 @@ ul.board-latest2 li span.boardDate {float:right; width:30%; font-family:'Century
     ul.list-sm li {font-size: inherit;}
 
     /***************** sub-page content *****************/
+    .greeting {padding-left: 50%; background-position: -10em bottom;}
     .tl-list .inner img {width: 90%;}
     .tl-list .year .inner,
     .tl-list .inner {padding-left: 60px;}
     .tl-list .left.year .inner,
     .tl-list .left .inner {padding-left: 0; padding-right: 60px;}
     .tl-tit {background: #fff;}
+    .tit_ethic {margin: 2em;}
     .tit_ethic .ico_growth {vertical-align: middle;}
     .box-tab ul.cont li {width: 25%;}
 }
@@ -217,10 +219,9 @@ ul.board-latest2 li span.boardDate {float:right; width:30%; font-family:'Century
     h3.tit_page strong {font-size: 21px; font-weight: 600;}
     h3.tit_page strong:before {top: 20px; border-bottom-width: 2px;}
     h4.tit_comm {font-size: 16px; background-position: left 6px;}
-    .tit_ethic {font-size: 18px;}
 
     /***************** sub-page content *****************/
-    .greeting {padding: 60% 0 0 0; background-size: 60%; background-position: top center;}
+    .greeting {padding: 60% 0 0 0; background-size: contain; background-position: top center;}
     .tl-list:after {left: 5%;}
     .tl-list li {padding-left: 5%;}
     .tl-list .left {padding-left: 5%; padding-right: 0; text-align: left;}

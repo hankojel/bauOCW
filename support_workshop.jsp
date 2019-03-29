@@ -31,6 +31,11 @@
             </div>
             <div id="container" class="sub-content">
                 <h3 class="tit_page"><strong>GE 워크숍</strong></h3>
+                <strong class="tit_ethic">
+                    <span class="txt_growth">
+                        <span class="ico_growth ico_start"></span>학습자 중심의 교육을 통한 창의적 융합인재와 자기주도적 학습자 양성을 목표로, 수요자 맞춤형 교수 역량강화를 위하여 교수법 프로그램을 개발 운영한다.<span class="ico_growth ico_end"></span>
+                    </span>
+                </strong>
                 <div class="listTab">
                     <ul>
                         <li class="select"><a href="#0">신청하기</a></li>

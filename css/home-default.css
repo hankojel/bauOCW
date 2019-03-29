@@ -11,9 +11,9 @@
 #wrap {}
 header {position: relative;}
 header .inner-gnb {position: relative; width: 1200px; margin: 0 auto; margin-top: 30px;}
-header .inner-gnb h1 {float: left; display:inline-block; width:320px;}
+header .inner-gnb h1 {float: left; display:inline-block; width:372px;}
 header .inner-gnb h1 a {display: block;}
-header .inner-gnb h1 a img {width:100%;}
+header .inner-gnb h1 a img {width:100%; vertical-align: top;}
 header .inner-gnb #showleftUser,
 header .inner-gnb #showRightPush,
 header .inner-gnb nav {display: none;}
@@ -132,10 +132,10 @@ footer .inner-wrap ul.sub-util li a {}
 footer .inner-wrap ul.sub-util li a:hover {color:#333;}
 footer .inner-wrap ul.sub-util li:first-child a:before {display:none;}
 footer .inner-wrap ul.sub-util li a:before {content:""; display:inline-block; vertical-align: middle; width:1px; height:11px; margin:0 20px 0 0; background:#97a6b7;}
-footer .inner-wrap .logo-b {clear:both; float:left; width:124px; height:34px; margin-top:10px; margin-right:-160px; text-indent:-9999px; background:url(../img/logo_b.png); background-size:cover;}
-footer .inner-wrap ul.copy {margin-left: 160px;}
+footer .inner-wrap .logo-b {clear:both; float:left; width:300px; height:28px; margin-top:10px; margin-right:-160px; text-indent:-9999px; background:url(../img/logo_b.png); background-size:cover;}
+footer .inner-wrap ul.copy {margin-left: 340px;}
 footer .inner-wrap ul.copy li {padding:2px 0; font-size:.875em; color:#acacac;}
-footer .inner-wrap ul.copy li address {display: inline-block; font-style:normal;}
+footer .inner-wrap ul.copy li address {display: inline-block; margin-right: 10px; font-style:normal;}
 footer .inner-wrap ul.copy li .ui.button {margin-left: 10px;}
 
 
@@ -175,8 +175,6 @@ footer .inner-wrap ul.copy li .ui.button {margin-left: 10px;}
     .banner-box .inner-banner,
     .footInf {width: 86%;}
     ul.class_content > li {width: calc(33.33% - 2%);}
-    footer .inner-wrap ul.copy li address {display: block;}
-    footer .inner-wrap ul.copy li .ui.button {margin: 10px 10px 10px 0;}
 }
 
 @media all and (max-width:768px){
@@ -211,6 +209,8 @@ footer .inner-wrap ul.copy li .ui.button {margin-left: 10px;}
     header .inner-gnb #gnb {display: none;}
     .grid-main-box .good-title {width: 100px;}
     .grid-main-box .good-latest {margin-left: 100px;}
+    footer .inner-wrap .logo-b {display: none;}
+    footer .inner-wrap ul.copy {margin-left: 0; text-align: center;}
 }
 
 @media all and (max-width:767px){

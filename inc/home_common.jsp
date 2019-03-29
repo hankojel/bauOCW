@@ -37,5 +37,5 @@
 <script type="text/javascript" src="js/jquery.mCustomScrollbar.concat.min.js"></script>
 <script type="text/javascript" src="js/modal.js"></script>
 <script type="text/javascript" src="js/moment.min.js"></script>
-    <script type="text/javascript" src="js/jquery.star-rating-svg.js"></script>
+<script type="text/javascript" src="js/jquery.star-rating-svg.js"></script>
 </head>
