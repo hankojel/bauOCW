@@ -35,6 +35,7 @@
                         <ul>
                             <li><a href="ocw_lecture.jsp">강좌목록</a></li>
                             <li><a href="ocw_attention.jsp">관심강좌</a></li>
+                            <li><a href="ocw_sample.jsp">샘플강좌</a></li>
                         </ul>
                     </div>
                 </li>
@@ -145,6 +146,7 @@
                     <ul>
                         <li><a href="ocw_lecture.jsp">강좌목록</a></li>
                         <li><a href="ocw_attention.jsp">관심강좌</a></li>
+                        <li><a href="ocw_sample.jsp">샘플강좌</a></li>
                     </ul>
                 </li>
                 <li><a href="#0">커뮤니티</a>
